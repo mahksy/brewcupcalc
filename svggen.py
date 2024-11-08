@@ -1,7 +1,8 @@
 import cairo
 import math
 
-ratio = 10
+ratio = 2 # 1 part coffee (2) parts water
+ratio += 1 # Add to correct for off-by-one
 
 percentcoffee= 1/ratio*100
 percentwater= 100-percentcoffee
